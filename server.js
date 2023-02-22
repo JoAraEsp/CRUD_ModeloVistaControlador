@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(routes);
 
 // 
-app.listen(process.env.PORT, function check(error) {
+app.listen(9002, function check(error) {
     if(error)
         console.log("Error de inicio!");
     else
